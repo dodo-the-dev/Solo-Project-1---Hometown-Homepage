@@ -1,0 +1,76 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color:#1D3557;
+}
+
+/* Header Styling */
+
+header {
+    border: 0.5px solid black;
+    background-image: url("images/rooftops");
+    background-size: cover;
+}
+
+header h1, header h3 {
+    background: #a8dadc;
+    width: 275px;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Activities styling */
+
+h2 {
+    background-color: #F1FAEE;
+    margin: auto;
+    padding: 40px 0;
+    min-width: 200px;
+}
+
+#activities {
+    display: flex;
+    background-color: #F1FAEE;
+}
+
+#activities div {
+    padding: 20px;
+    min-width: 200px;
+}
+
+.activity-img {
+    width: 200px;
+    border-radius: 50%
+}
+
+#activities h3, #activities p {
+    padding: 20px;
+}
+
+/* Card styling */
+
+#id-card {
+    display: flex;
+    max-width: 450px;
+    margin: 20px auto;
+    border-bottom: solid 5px #1D3557;
+    background-color: #A8DADC;
+    padding: 10px;
+    border-radius: 10px;
+}
+#id-card img {
+    width: 132.5px;
+    height: 150px;
+    margin: 10px;
+}
